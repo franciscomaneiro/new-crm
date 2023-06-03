@@ -4,7 +4,6 @@
   "useTabs": false,
   "semi": true,
   "bracketSpacing": true,
-  "jsxBracketSameLine": true,
   "arrowParens": "always",
   "bracketSameLine": true,
   "singleQuote": true,
