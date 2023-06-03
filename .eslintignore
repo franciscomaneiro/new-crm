@@ -1,0 +1,8 @@
+# React-Native
+public
+babel.config.js
+types.ts
+*-test.*
+node_modules
+.eslintrc.js
+generated.ts
