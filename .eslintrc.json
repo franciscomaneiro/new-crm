@@ -15,11 +15,7 @@
       "airbnb/hooks",
       "airbnb-typescript",
       "eslint:recommended",
-      "plugin:jest/recommended",
-      "plugin:cypress/recommended",
-      "plugin:jsx-a11y/recommended",
-      "plugin:@typescript-eslint/recommended",
-      "@react-native-community"
+      "plugin:@typescript-eslint/recommended"
     ],
     "plugins": [
       "@typescript-eslint",
@@ -27,16 +23,14 @@
       "jsx-a11y",
       "react-hooks",
       "import",
-      "jsdoc",
-      "jest",
-      "cypress",
-      "@react-native-community",
-      "eslint-plugin-no-inline-styles"
+      "eslint-plugin-no-inline-styles",
+      "prettier"
     ],
     "globals": {
       "JSX": true
     },
     "settings": {
+      "version": "detect",
       "jsdoc": {
         "mode": "typescript"
       }
@@ -45,7 +39,8 @@
       "prettier/prettier": [
         "error",
         {
-          "endOfLine": "auto"
+          "endOfLine": "auto",
+          "singleQuote": true
         }
       ],
       "radix": "off",
@@ -82,26 +77,7 @@
           "typedefs": true
         }
       ],
-      "jsdoc/check-alignment": "error",
-      "jsdoc/check-param-names": "error",
-      "jsdoc/check-tag-names": "error",
       "react-hooks/exhaustive-deps":"off",
-      "jsdoc/check-types": "error",
-      "jsdoc/implements-on-classes": "error",
-      "jsdoc/newline-after-description": "error",
-      "jsdoc/no-undefined-types": "error",
-      "jsdoc/require-description-complete-sentence": "error",
-      "jsdoc/require-hyphen-before-param-description": "error",
-      "jsdoc/require-jsdoc": "error",
-      "jsdoc/require-param": "error",
-      "jsdoc/require-param-description": "error",
-      "jsdoc/require-param-name": "error",
-      "jsdoc/require-param-type": "off",
-      "jsdoc/require-returns": "error",
-      "jsdoc/require-returns-check": "error",
-      "jsdoc/require-returns-description": "error",
-      "jsdoc/require-returns-type": "off",
-      "jsdoc/valid-types": "error",
       "semi": ["error", "always"],
       "no-console": [
         "error",
