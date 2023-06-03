@@ -6,3 +6,5 @@ types.ts
 node_modules
 .eslintrc.js
 generated.ts
+next-env.d.ts
+next.config.js
